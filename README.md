@@ -1,7 +1,7 @@
 # OpenPolicing_SanDiego
 
 ## Project Overview
-The data was obtained from The Stanford Open Policing Project ().  
+The data was obtained from The Stanford Open Policing Project (https://openpolicing.stanford.edu/data/).  
 The datatset is cleaned data (by SOPP), with each row representing a police stop.  
 Data ranges from 2014-01-01 to 2017-03-31.  
 There are a total of 382,844 entries.  
