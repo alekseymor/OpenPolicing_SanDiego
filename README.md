@@ -142,13 +142,18 @@ Next, I am going to remove the 'type' column as all of the stops fall under the 
 ## Application
 
 ## Results and Outcomes
-We'll start with some descriptive statistics of the data. It appears that the average age of a subject is 37.1 and the median age is 34.0.  
+I'll start with some descriptive statistics of the data. It appears that the average age of a subject is 37.1 and the median age is 34.0.  
 Interestingly, the minimum age of a subject in the dataset appears to be 10, and the maximum agea appears to be 100. We will look closes at these (and similar) cases.
 
-Next we'll look at the frequency distributions for the following fields: subject_race,	subject_sex,	arrest_made,	citation_issued,	warning_issued,	outcome,	contraband_found,	search_conducted,	search_person,	search_vehicle,	search_basis,	and reason_for_search.  
+Next I'll look at the frequency distributions for the following fields: subject_race,	subject_sex,	arrest_made,	citation_issued,	warning_issued,	outcome,	contraband_found,	search_conducted,	search_person,	search_vehicle,	search_basis,	and reason_for_search.  
 
-Looking at the racial breakdown of the data, it appears that most of the stops are of white subjects, accounting for 42.35% of the stops, followed by hispanic with 30.57%, and black with 11.14%.  We'll compare these figures with the census data for San Diego to see how they compare.
-![San Diego Police Stops By Race](https://github.com/alekseymor/OpenPolicing_SanDiego/assets/10982274/5158af80-85c2-4953-8cb2-6fe0c326681d)
+Looking at the racial breakdown of the data, it appears that most of the stops are of white subjects, accounting for 162,226 or 42.35% of the stops, followed by hispanic with 117,083 or 30.57%, and black with 42,705 or 11.14%.  I'll compare these figures with the census data for San Diego to see if they match.
+
+![San Diego Police Stops By Race](https://github.com/alekseymor/OpenPolicing_SanDiego/assets/10982274/5158af80-85c2-4953-8cb2-6fe0c326681d). 
+
+Of the 383,028 stops made between the years of 2014 and 2017, only 4,815, or 1.25%, resulted in an arrest. The majority of the stops, 219,712, or 57.36%, resulted in a citation.  
+![San Diego Police Stop Outcome](https://github.com/alekseymor/OpenPolicing_SanDiego/assets/10982274/a76d833a-ca64-4d39-9fb9-222188ebe4e8). 
+
 
 
 ## Next Steps
