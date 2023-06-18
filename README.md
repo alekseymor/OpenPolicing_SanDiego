@@ -2,9 +2,7 @@
 
 ## Project Overview
 The data was obtained from The Stanford Open Policing Project (https://openpolicing.stanford.edu/data/).  
-The datatset is cleaned data (by SOPP), with each row representing a police stop.  
-Data ranges from 2014-01-01 to 2017-03-31.  
-There are a total of 382,844 entries.  
+The datatset is cleaned data (by SOPP), with each row representing a police stop.   
 
 The fields in this dataset are as follows:  
 <table>
@@ -134,10 +132,23 @@ The fields in this dataset are as follows:
 
 ## Concept Overview
 
-## Data Overview / Preparation Steps
 
+## Data Overview / Preparation Steps
+Data ranges from 2014-01-01 to 2017-03-31.   
+There are a total of 382,844 entries.  
+
+A quick glace at the data revealed some entries that may cause problems down the line. The first such issue occurs in the 'raw_row_number' field. According to SOPP, if there was a single stop but multiple different violations or passengers then the rows were combined. As a result there are row number entries that appear as such: "407|408|409|410|411|412". For this analysis I will be omitting everything after the first separator (|) as there is no additional data linked to the other numbers.  
+Next, I am going to remove the 'type' column as all of the stops fall under the 'vehicular' category.
 ## Application
 
 ## Results and Outcomes
+We'll start with some descriptive statistics of the data. It appears that the average age of a subject is 37.1 and the median age is 34.0.  
+Interestingly, the minimum age of a subject in the dataset appears to be 10, and the maximum agea appears to be 100. We will look closes at these (and similar) cases.
+
+Next we'll look at the frequency distributions for the following fields: subject_race,	subject_sex,	arrest_made,	citation_issued,	warning_issued,	outcome,	contraband_found,	search_conducted,	search_person,	search_vehicle,	search_basis,	and reason_for_search.  
+
+Looking at the racial breakdown of the data, it appears that most of the stops are of white subjects, accounting for 42.35% of the stops, followed by hispanic with 30.57%, and black with 11.14%.  We'll compare these figures with the census data for San Diego to see how they compare.
+![San Diego Police Stops By Race](https://github.com/alekseymor/OpenPolicing_SanDiego/assets/10982274/5158af80-85c2-4953-8cb2-6fe0c326681d)
+
 
 ## Next Steps
