@@ -154,6 +154,9 @@ Looking at the racial breakdown of the data, it appears that most of the stops a
 Of the 383,028 stops made between the years of 2014 and 2017, only 4,815, or 1.25%, resulted in an arrest. The majority of the stops, 219,712, or 57.36%, resulted in a citation.  
 ![San Diego Police Stop Outcome](https://github.com/alekseymor/OpenPolicing_SanDiego/assets/10982274/a76d833a-ca64-4d39-9fb9-222188ebe4e8). 
 
+Next, I'll create a pivot table to see if there is any correlation between the outcome of a police stop and the race of the subject. The Data shows that most of arrests were of white and hispanic subjects. 
+![Screenshot 2023-06-18 at 3 31 54 PM](https://github.com/alekseymor/OpenPolicing_SanDiego/assets/10982274/2d2016c2-c09a-449c-a57f-9d99cb21fb08). 
+
 
 
 ## Next Steps
